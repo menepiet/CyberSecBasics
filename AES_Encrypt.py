@@ -1,5 +1,5 @@
-from Crypto.Cipher import AES
-from Crypto import Random
+from Cryptodome.Cipher import AES
+from Cryptodome import Random
 
 BLOCK_SIZE = 32
 PADDING = b'#'
